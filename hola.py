@@ -1,4 +1,4 @@
-name =input ("ingresa tu nombre: ")
+name = input ("ingresa tu nombre: ")
 age = input(("ingresa tu edad: "))
 print(f"yo soy  {name} y tengo {age} años")
 future = int(age) + 4
