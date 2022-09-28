@@ -16,15 +16,19 @@ if __name__ == '__main__':
         opcion = int(input(message))
         #Comparar cada una de las opciones y llamar a la funcion que corresponda
         if opcion == 1:
+            #Pedir numeros al usuario
             resultado_suma = suma(23, 54)
             print("El resultado de la suma es", resultado_suma)
         elif opcion == 2:
+              #Pedir numeros al usuario
             resultado_resta = resta(23, 54)
             print("El resultado de la resta es: ", resultado_resta )
         elif opcion == 3:
+              #Pedir numeros al usuario
             resultado_multi = multiply(23, 54)
             print("El resultado de la multiplicacion es: ", resultado_multi )
         elif opcion == 4:
+              #Pedir numeros al usuario
             resultado_div = divide(23, 54)
             print("El resultado de la division es: ", resultado_div )
 
