@@ -11,6 +11,8 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     if num2 == 0:
+       #print("No se puede hacer una divison entre 0")
+     
         num2 = 1
     return num1 / num2
 
@@ -23,6 +25,7 @@ def return_values():
 if __name__ == '__main__':
     message = f"Calculadora: \n Elige una opcion\n1 - suma\n2 - resta\n3 - multiplicacion\n4 - division\n5 - salir\n "
     while True:
+        os.system('clear')
         opcion = int(input(message))
         #Comparar cada una de las opciones y llamar a la funcion que corresponda
         if opcion == 1:
