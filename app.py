@@ -1,25 +1,8 @@
-lista_elements = [
-    {
-        "id": 1,
-        "Nombre": "Erik",
-        "Apellido": "Flores"
-    },
-     {
-        "Id": 2,
-        "Nombre": "Fernando",
-        "Apellido": "Castañeda"
-    },
-     {
-        "Id": 1,
-        "Nombre": "Oscar",
-        "Apellido": "Guillen"
-    },
-     {
-        "Id": 1,
-        "Nombre": "Edwin",
-        "Apellido": "Aquino"
-    },
-]
+import json
+
+with open('elementos.json', 'r') as file:
+    lista_elements = json.load(file)
+
 
 
 
@@ -35,10 +18,10 @@ def add_element():
         
     }
     lista_elements.append(persona)
+    lista_elements
+    guardar_lista()
      
-  
-
-    
+      
 
 def remove_element():
     # for para buscar (puede buscar con un find )
@@ -50,9 +33,7 @@ def remove_element():
     if aceptar == "S":
         lista_elements.remove(found)
         print("Elemento Eliminado") 
-
-
-    
+  
 
 def find_element(id):
     # for para buscar
@@ -77,7 +58,9 @@ def edit_element():
     found = find_element(id)
     print(found) 
 
-
+def gardar_lista():
+    with open('elemento.json' , 'w') as file:
+        json.dump(lista_elements, file, indemt=4) 
 
 if __name___=='__main__':
     menu ='''

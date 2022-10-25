@@ -1,11 +1,11 @@
-Cruz azul
-Pumas
-Guadalajara
-America
-Toluca
-Coyotes
-Puebla
-Liverpool
-PSG
-Bayer
-Guerreros UTT
+1.-Cruz azul
+2.-Pumas
+3.-Guadalajara
+4.-America
+5.-Toluca
+6.-Coyotes
+7.-Puebla
+8.-Liverpool
+9.-PSG
+10.-Bayer
+11.-Guerreros UTT
